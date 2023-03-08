@@ -1,0 +1,79 @@
+body {
+    background-color: #04040F;
+}
+
+.wrapper {
+  display: grid;
+  place-items: center;
+  font-family: monospace;
+  font-size: 1.2em;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.maintext {
+    opacity: none;
+    color: black;
+}
+
+.maintext:hover {
+    color: white;
+    transition: 1s;
+}
+
+.typing-demo {
+  width: 52ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: auto;
+  border-right: 3px solid;
+  font-family: "Zilla Slab";
+  font-size: 1.2em;
+  color: #00BCE3;
+  place-items: center;
+}
+
+.typing-demo2 {
+  width: 52ch;
+  animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Zilla Slab";
+  font-size: 1.2em;
+  color: #00BCE3;
+}
+
+.typing-demo3 {
+  width: 52ch;
+  animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Zilla Slab";
+  font-size: 1.2em;
+  color: lightgray;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+body {
+    font-family: "Zilla Slab";
+}
+
+h3 {
+      padding-left: 10%;
+  padding-right: 10%;
+    text-align-last: left;
+    color: white;
+}
